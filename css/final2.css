@@ -9,11 +9,24 @@ body, html{
 }
 
 .background-home{
-	background-image: url("../images/background-home.png");
+	background-image: url("../images/background-homeN.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; 
 	height: 100%; 
+}
+.name{
+	width: 25%;
+	top: 75%;
+	bottom: 15%;
+	left: 35%;
+	position: absolute;
+}
+.frame{
+	width: 19%;
+	bottom: 0%;
+	left: 75%;
+	position: absolute;
 }
 .film-button{
     text-align: center;
