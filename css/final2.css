@@ -128,7 +128,7 @@ body, html{
 
 .background-design{
 	background-image: url("../images/background-design.png");
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -195,7 +195,7 @@ body, html{
 .background-animation{
 	background-image: url("../images/background-animation.png");
 	height: 100%;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
