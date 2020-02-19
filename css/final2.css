@@ -135,8 +135,8 @@ body, html{
 
 @media only screen and (max-width:60em){
 	.segment{
-	font-size: 0.65em;
-	width: 50%;
+	font-size: 0.5em;
+	width: 60%;
 }
 }
 /*DESIGN content*/
