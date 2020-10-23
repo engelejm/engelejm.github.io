@@ -387,7 +387,7 @@ body, html{
 
 /*About Me Page*/
 .background-about{
-	background-image: url("../images/about-me.jpg");
+	background-image: url("../images/about-me2.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -454,7 +454,7 @@ display:inline-block;
 
 @media only screen and (max-width:60em){
 	.background-about{
-	background-image: url("../images/phoneabout.jpg");
+	background-image: url("../images/phoneabout2.png");
 	background-position: top;
 	background-attachment: scroll;
 	background-repeat: repeat;
