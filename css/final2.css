@@ -455,7 +455,8 @@ display:inline-block;
 .vid-container {
 	position: relative;
 	padding-bottom: 52%;
-	padding-top: 30px; 
+	padding-top: 0px;
+    margin-top: px;
 	height: 0; 
 }
 
