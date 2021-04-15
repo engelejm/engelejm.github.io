@@ -7,11 +7,30 @@
     <script language="JavaScript" type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 <title>Video</title>
 </head>
-<body class="background-video" style="padding-top: 70px;">
-<div class="container" style="width: 100%;
+<body class="background-video" style="position: relative;
+  height: 100vh;
+  overflow: hidden;">
+<div style="position: absolute;
+            z-index: 999;
+            height: 50px;
+            top: -40px;
+            left: 0px;"><img src="../images/film-title-new-16.png" style="height: 240px;"></div>
+<div style = "position: absolute;
+              z-index: 1;
+              background: #b19aaa;
+              height: 100%;
+              width: 80%;
+              top: 100px;
+              margin: 0px 10% 0px 10%;
+              border-radius: 100px 100px 0px 0px; 
+              ">  
+<div class="container" style="
+    position: relative;
+    width: 65%;
     max-width: 854px;
     min-width: 440px;
-    margin: 0 auto;">
+    margin: auto;
+    margin-top: 20px">
 
   		<!-- THE YOUTUBE PLAYER -->
   		<div class="vid-container">
@@ -22,39 +41,46 @@
 		<div class="vid-list-container" style="background: transparent">
 	        <div class="vid-list">
 	         	
- 	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/7Y7bEs9sF3I'">
+ 	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/BGyGod7Rflo'">
  	              <div class="thumb"><img src="http://img.youtube.com/vi/BGyGod7Rflo/0.jpg"></div>
- 	              <div class="desc">Jessica Hernandez &amp; the Deltas - Dead Brains</div>
+ 	              <div class="desc" style="background: #b7b2cc; border-radius: 10px;
+                  color: #8b8bbc">
+                      <div style="padding: 10px;">
+                      This is a short description of my first video
+                      </div>
+                      
+                    
+                    </div>
  	            </div>
  	          
  	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/7Y7bEs9sF3I'">
  	              <div class="thumb"><img src="http://img.youtube.com/vi/7Y7bEs9sF3I/0.jpg"></div>
- 	              <div class="desc">Barbatuques - CD Tum Pá - Sambalelê</div>
+ 	              <div class="desc">This is a short description of my second video</div>
  	            </div>
 
- 	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/F1f-gn_mG8M?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
- 	              <div class="thumb"><img src="http://img.youtube.com/vi/F1f-gn_mG8M/0.jpg"></div>
- 	              <div class="desc">Eleanor Turner plays Baroque Flamenco</div>
+ 	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/_2Hg67lX0u8?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/_2Hg67lX0u8/0.jpg"></div>
+ 	              <div class="desc">This is a short description of my third video</div>
  	            </div>
 
- 	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/fB8UTheTR7s?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
- 	              <div class="thumb"><img src="http://img.youtube.com/vi/fB8UTheTR7s/0.jpg"></div>
- 	              <div class="desc">Sleepy Man Banjo Boys: Bluegrass</div>
+ 	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/vahZhnI1QO8?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
+ 	              <div class="thumb"><img src="http://img.youtube.com/vi/vahZhnI1QO8/0.jpg"></div>
+ 	              <div class="desc">This is a short description of my fourth video</div>
  	            </div>
 
  	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/0SNhAKyXtC8?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
  	              <div class="thumb"><img src="http://img.youtube.com/vi/0SNhAKyXtC8/0.jpg"></div>
- 	              <div class="desc">Edmar Castaneda: NPR Music Tiny Desk Concert</div>
+ 	              <div class="desc">This is a short description of my fifth video</div>
  	            </div>
 
  	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/RTHI_uGyfTM?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
  	              <div class="thumb"><img src="http://img.youtube.com/vi/RTHI_uGyfTM/0.jpg"></div>
- 	              <div class="desc">Winter Harp performs Caravan</div>
+ 	              <div class="desc">This is a short description of my sixth video</div>
  	            </div>
  	          
  	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/abQRt6p8T7g?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
  	              <div class="thumb"><img src="http://img.youtube.com/vi/abQRt6p8T7g/0.jpg"></div>
- 	              <div class="desc">The Avett Brothers Tiny Desk Concert</div>
+ 	              <div class="desc">This is a short description of my seventh video</div>
  	            </div>
 
  	            <div class="vid-item" onclick="document.getElementById('vid_frame').src='http://youtube.com/embed/fpmN9JorFew?autoplay=1&amp;rel=0&amp;showinfo=0&amp;autohide=1'">
@@ -74,7 +100,7 @@
     
     
   	</div>
-    
+</div>  
     <script>
         $(document).ready(function () {
     $(".arrow-right").bind("click", function (event) {
