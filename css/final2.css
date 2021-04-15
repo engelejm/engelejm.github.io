@@ -9,7 +9,7 @@ body, html{
 }
 
 .background-home{
-	background-image: url("../images/background-homeN.png");
+	background-image: url("../images/home-background.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -32,27 +32,25 @@ body, html{
 .film-button{
     text-align: center;
     position: absolute;
-    top: 25%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    width: 13%;
+    top: 8vw;
+    left: 2vw;
+    height: 50vw;
 }
 
 .design-button{
     text-align: center;
     position: absolute;
-    top: 25%;
-    left: 27%;
-    transform: translate(-50%, -50%);
-    width: 13%;
+    top: 5vw;
+    left: 40vw;
+    height: 50vw;
 }
 .animation-button{
     text-align: center;
     position: absolute;
-    top: 25%;
-    left: 44%;
+    top: 5vw;
+    left: 27%;
     transform: translate(-50%, -50%);
-    width: 13%;
+    height: 50vw;
 }
 .sidebar {
   height: 100%;
@@ -257,6 +255,29 @@ body, html{
     flex: 50%;
     max-width: 50%;
   }
+    .film-button{
+    text-align: center;
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+    height: 70vw;
+}
+
+.design-button{
+    text-align: center;
+    position: absolute;
+    top: 5vw;
+    left: 60vw;
+    height: 70vw;
+}
+.animation-button{
+    text-align: center;
+    position: absolute;
+    top: 5vw;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 70vw;
+}
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -264,6 +285,29 @@ body, html{
     flex: 100%;
     max-width: 100%;
   }
+    .film-button{
+    text-align: center;
+    position: absolute;
+    top: 10vw;
+    left: 3vw;
+    height: 90vw;
+}
+
+.design-button{
+    text-align: center;
+    position: absolute;
+    top: 4vw;
+    left:63vw;
+    height: 90vw;
+}
+.animation-button{
+    text-align: center;
+    position: absolute;
+    top: 5vw;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    height: 90vw;
+}
 }
 
 /* Animation Content*/
