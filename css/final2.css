@@ -15,6 +15,7 @@ body, html{
 	background-size: cover; 
 	bottom: 0%;
 	height: 100%; 
+    z-index: 999;
 }
 .name{
 	width: 25%;
@@ -28,6 +29,7 @@ body, html{
 	bottom: 0%;
 	left: 75%;
 	position: absolute;
+    z-index: 5;
 }
 .frame-hover{
 	width: 19%;
@@ -36,6 +38,7 @@ body, html{
 	position: absolute;
     opacity: 0;
     transition: .5s ease;
+    z-index: 5;
 }
 .frame-hover:hover {
   opacity: 1;
@@ -67,6 +70,7 @@ body, html{
     top: 3vw;
     left: 38vw;
     height: 50vw;
+    z-index: 0;
 }
 .design-button-hover{
     text-align: center;
@@ -76,6 +80,7 @@ body, html{
     height: 50vw;
     opacity: 0;
     transition: .5s ease;
+    z-index: 0;
 }
 .design-button-hover:hover {
   opacity: 1;
@@ -287,13 +292,24 @@ body, html{
 	bottom: 15%;
 	left: 5%;
 	position: absolute;
+    z-index: 5;
     }
     .frame{
 	width: 35%;
 	bottom: 0%;
 	left: 60%;
 	position: absolute;
-}
+    z-index: 5;
+    }
+    .frame-hover{
+	width: 35%;
+	bottom: 0%;
+	left: 60%;
+	position: absolute;
+    z-index: 5;
+    opacity: 0;
+    transition: .5s ease;
+    }
 }
 
 @media (max-width: 600px){
@@ -314,7 +330,17 @@ body, html{
 	bottom: 0%;
 	left: 50%;
 	position: absolute;
-}
+    z-index: 5;
+    }
+    .frame-hover{
+	width: 45%;
+	bottom: 0%;
+	left: 50%;
+	position: absolute;
+    z-index: 5;
+    opacity: 0;
+    transition: .5s ease;
+    }
 }
 
 @media only screen and (max-width:60em){
@@ -402,6 +428,7 @@ body, html{
     top: 8vw;
     left: 55vw;
     height: 70vw;
+    z-index: 5;
 }
     .design-button-hover{
     text-align: center;
@@ -411,6 +438,7 @@ body, html{
     height: 70vw;
     opacity: 0;
     transition: .5s ease;
+    z-index: 5;
 }
 .animation-button{
     text-align: center;
