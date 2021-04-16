@@ -520,7 +520,7 @@ body, html{
 /* Animation Content*/
 
 .background-animation{
-	background-image: url("../images/background-animation.png");
+	background-image: url("../images/animations/animations-background.png");
 	height: 100%;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -535,6 +535,16 @@ body, html{
     transform: translate(-50%, -50%);
     width: 8%;
 }
+
+#animatelogoContainer{
+    display: block;
+    position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    left: 50%;
+
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -542,7 +552,7 @@ body, html{
   max-width: 750px;
   position: absolute;
   margin: auto;
-  top: 22%;
+  top: 10%;
   left: 20%;
   right: 20%;
   bottom: 15%;	
