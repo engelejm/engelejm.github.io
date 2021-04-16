@@ -45,7 +45,7 @@ body { font-family: sans-serif; }
 
 .carousel-cell img {
   display: block;
-  height: 50vh;
+  height: 30vh;
 }
 
 @media (max-width: 900px){ 
