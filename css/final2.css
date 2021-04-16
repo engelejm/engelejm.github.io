@@ -25,16 +25,16 @@ body, html{
 	position: absolute;
 }
 .frame{
-	width: 19%;
+	width: 25%;
 	bottom: 0%;
-	left: 75%;
+	left: 65%;
 	position: absolute;
     z-index: 5;
 }
 .frame-hover{
-	width: 19%;
+	width: 25%;
 	bottom: 0%;
-	left: 75%;
+	left: 65%;
 	position: absolute;
     opacity: 0;
     transition: .5s ease;
@@ -47,14 +47,14 @@ body, html{
 .film-button{
     text-align: center;
     position: absolute;
-    top: 7vw;
+    top: 5vw;
     left: 2vw;
     height: 50vw;
 }
 .film-button-hover{
     text-align: center;
     position: absolute;
-    top: 7vw;
+    top: 5vw;
     left: 2vw;
     height: 50vw;
     opacity: 0;
@@ -67,20 +67,18 @@ body, html{
 .design-button{
     text-align: center;
     position: absolute;
-    top: 3vw;
+    top: -0.5vw;
     left: 38vw;
     height: 50vw;
-    z-index: 0;
 }
 .design-button-hover{
     text-align: center;
     position: absolute;
-    top: 3vw;
+    top: -0.5vw;
     left: 38vw;
     height: 50vw;
     opacity: 0;
     transition: .5s ease;
-    z-index: 0;
 }
 .design-button-hover:hover {
   opacity: 1;
@@ -88,7 +86,7 @@ body, html{
 .animation-button{
     text-align: center;
     position: absolute;
-    top: 1vw;
+    top: 5vw;
     left: 28%;
     transform: translate(-50%, -50%);
     height: 50vw;
@@ -96,7 +94,7 @@ body, html{
 .animation-button-hover{
     text-align: center;
     position: absolute;
-    top: 1vw;
+    top: 5vw;
     left: 28%;
     transform: translate(-50%, -50%);
     height: 50vw;
@@ -110,7 +108,7 @@ body, html{
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 55;
   top: 0;
   right: 0;
   background-color: #AF9EAC;
@@ -295,16 +293,16 @@ body, html{
     z-index: 5;
     }
     .frame{
-	width: 35%;
+	width: 40%;
 	bottom: 0%;
-	left: 60%;
+	left: 55%;
 	position: absolute;
     z-index: 5;
     }
     .frame-hover{
-	width: 35%;
+	width: 40%;
 	bottom: 0%;
-	left: 60%;
+	left: 55%;
 	position: absolute;
     z-index: 5;
     opacity: 0;
@@ -326,14 +324,14 @@ body, html{
 	position: absolute;
     }
     .frame{
-	width: 45%;
+	width: 55%;
 	bottom: 0%;
 	left: 50%;
 	position: absolute;
     z-index: 5;
     }
     .frame-hover{
-	width: 45%;
+	width: 55%;
 	bottom: 0%;
 	left: 50%;
 	position: absolute;
@@ -408,14 +406,14 @@ body, html{
     .film-button{
     text-align: center;
     position: absolute;
-    top: 14vw;
+    top: 11vw;
     left: 3vw;
     height: 70vw;            
 }
     .film-button-hover{
     text-align: center;
     position: absolute;
-    top: 14vw;
+    top: 11vw;
     left: 3vw;
     height: 70vw;  
     opacity: 0;
@@ -425,25 +423,23 @@ body, html{
 .design-button{
     text-align: center;
     position: absolute;
-    top: 8vw;
+    top: 3vw;
     left: 55vw;
     height: 70vw;
-    z-index: 5;
 }
     .design-button-hover{
     text-align: center;
     position: absolute;
-    top: 8vw;
+    top: 3vw;
     left: 55vw;
     height: 70vw;
     opacity: 0;
     transition: .5s ease;
-    z-index: 5;
 }
 .animation-button{
     text-align: center;
     position: absolute;
-    top: 5vw;
+    top: 11vw;
     left: 40%;
     transform: translate(-50%, -50%);
     height: 70vw;
@@ -451,7 +447,7 @@ body, html{
     .animation-button-hover{
     text-align: center;
     position: absolute;
-    top: 5vw;
+    top: 11vw;
     left: 40%;
     transform: translate(-50%, -50%);
     height: 70vw;
@@ -476,14 +472,14 @@ body, html{
 .design-button{
     text-align: center;
     position: absolute;
-    top: 9vw;
+    top: 5vw;
     left:63vw;
     height: 90vw;
 }
 .animation-button{
     text-align: center;
     position: absolute;
-    top: 5vw;
+    top: 15vw;
     left: 47%;
     transform: translate(-50%, -50%);
     height: 90vw;
@@ -502,7 +498,7 @@ body, html{
 .design-button-hover{
     text-align: center;
     position: absolute;
-    top: 9vw;
+    top: 5vw;
     left:63vw;
     height: 90vw;
     opacity: 0;
@@ -511,7 +507,7 @@ body, html{
 .animation-button-hover{
     text-align: center;
     position: absolute;
-    top: 5vw;
+    top: 15vw;
     left: 47%;
     transform: translate(-50%, -50%);
     height: 90vw;
