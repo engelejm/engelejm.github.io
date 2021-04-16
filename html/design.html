@@ -1,58 +1,154 @@
 <!doctype html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../css/final2.css">
-<title>Design</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="../js/modal.js"></script>
-    
-</head>
+    <head>
+    <!-- CSS -->
+<link rel="stylesheet" href="../css/flickity.css">
+    <link rel=stylesheet href="../css/newdesign.css">
+        <!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
 
-<body>
-
-<div class="background-design">
-<div class="header">
-  <br> <br><br><br><br><br>
-	</div>
-<div class="row"> 
-  <div class="column">
-    <img class="modal-hover-opacity" src="../images/banner1-01.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/banner1-02.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/banner1-03.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/church-poster2.jpg" style="width:100%" alt="test" onclick="onClick(this)"> 
-    <img class="modal-hover-opacity" src="../images/Foustlogos3_logo-master1.png" style="width:49%" alt="test" onclick="onClick(this)">
-      <img class="modal-hover-opacity" src="../images/Foustlogos3-04.png" style="width:49%" alt="test" onclick="onClick(this)">
-	<img class="modal-hover-opacity" src="../images/movie-poster.png" style="width:100%" alt="test" onclick="onClick(this)">
-  </div>
-  <div class="column"> 
-      <img class="modal-hover-opacity" src="../images/banner3-01.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/miserable.png" style="width:100%" alt="test" onclick="onClick(this)">
-      <img class="modal-hover-opacity" src="../images/Foustlogos1-02.png" style="width:49%" alt="test" onclick="onClick(this)">
-      <img class="modal-hover-opacity" src="../images/Foustlogos1-08.png" style="width:49%" alt="test" onclick="onClick(this)">
-	<img class="modal-hover-opacity" src="../images/the-edge-og.jpg" style="width:100%" alt="test" onclick="onClick(this)">
-	<img class="modal-hover-opacity" src="../images/testdraw.png" style="width:100%" alt="test" onclick="onClick(this)">
-	</div>
-  <div class="column">
-      <img class="modal-hover-opacity" src="../images/Foustlogos1-01.png" style="width:49%" alt="test" onclick="onClick(this)">
-      <img class="modal-hover-opacity" src="../images/Foustlogos2_Artboard%202.png" style="width:49%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/Minno-01.png" style="width:100%" alt="test" onclick="onClick(this)">
-	<img class="modal-hover-opacity" src="../images/banner2-01.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/banner2-02.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity" src="../images/banner2-03.png" style="width:100%" alt="test" onclick="onClick(this)">
-    <img class="modal-hover-opacity"src="../images/church-poster1.jpg" style="width:100%" alt="test" onclick="onClick(this)">
-	<img class="modal-hover-opacity" src="../images/vera-01.png" style="width:100%" onclick="onClick(this)">
-      
-  </div>
+    <img src="../images/design/design-banner-new.png" id="banner">
     
-</div>
-<div id="modal01" class="modal" onclick="this.style.display= 'none'">
-        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <div class="modal-content">
-            <img id=img01 style="max-width: 100%">
-        </div>
+
+<div id="galleryContainer">
+    <div class="titleContainer">
+        <h1>Flickity - lazyLoad: 2 adjacent</h1>
     </div>
-<a href="../index.html"><img src="../images/back-arrows.png" class="back-buttond"></a>
-	</div>
-</body>
+<!-- Flickity HTML init -->
+<div class="carousel"
+   data-flickity='{ "lazyLoad": 2, "initialIndex": 2 }'>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg" alt="tulip" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/grapes.jpg" alt="grapes" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/raspberries.jpg" alt="raspberries" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/wolf.jpg" alt="wolf" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/shore.jpg" alt="sea" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/leaf-droplets.jpg" alt="leaf droplets" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/gulls.jpg" alt="gulls" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/touch-screen.jpg" alt="touch screen" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/van.jpg" alt="van" />
+  </div>
+</div>
+      <br><br>
+    <div class="titleContainer">
+        <h1>Flickity - lazyLoad: 2 adjacent</h1>
+    </div>
+<!-- Flickity HTML init -->
+<div class="carousel"
+   data-flickity='{ "lazyLoad": 2, "initialIndex": 2 }'>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg" alt="tulip" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/grapes.jpg" alt="grapes" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/raspberries.jpg" alt="raspberries" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/wolf.jpg" alt="wolf" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/shore.jpg" alt="sea" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/leaf-droplets.jpg" alt="leaf droplets" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/gulls.jpg" alt="gulls" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/touch-screen.jpg" alt="touch screen" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/van.jpg" alt="van" />
+  </div>
+</div>
+    
+        <br><br>
+    <div class="titleContainer">
+        <h1>Flickity - lazyLoad: 2 adjacent</h1>
+    </div>
+<!-- Flickity HTML init -->
+<div class="carousel"
+   data-flickity='{ "lazyLoad": 2, "initialIndex": 2 }'>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg" alt="tulip" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/grapes.jpg" alt="grapes" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/raspberries.jpg" alt="raspberries" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/wolf.jpg" alt="wolf" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/shore.jpg" alt="sea" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/leaf-droplets.jpg" alt="leaf droplets" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/gulls.jpg" alt="gulls" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/touch-screen.jpg" alt="touch screen" />
+  </div>
+  <div class="carousel-cell">
+    <img class="carousel-cell-image"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/van.jpg" alt="van" />
+  </div>
+</div>
+</div>        
+
+       
+        
+    </body>
 </html>
