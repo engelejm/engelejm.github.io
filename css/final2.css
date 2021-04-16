@@ -276,7 +276,7 @@ body, html{
     background: #b19aaa;
     height: 100%;
     width: 100%;
-    top: 100px;
+    top: 40px;
     margin: 0px 0px 0px 0px;
     border-radius: 100px 100px 0px 0px;
     }
@@ -692,6 +692,60 @@ body, html{
     width: 12%;
 }
 
+#myPic {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 25%;
+}
+#aboutMeTitlePic{
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    left: 25%;
+}
+#aboutMeTitlePicReflect{
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    left: 25%;
+}
+#aboutMeTitle{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+#aboutMeText{
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    top: 0px;
+    width: 50%;      
+}
+#aboutMeText p{
+    margin: 2vw 2vw 2vw 2vw;
+    font-size: 2vw;
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+}
+#back-button-about{
+	text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    width: 8%;
+}
+
+#makingThings{
+        width: 80%;
+        margin: 3vw;
+    position: absolute;
+    bottom: 0px;
+    }
 /*Design Page Modal*/
 
 .modal {
@@ -828,8 +882,8 @@ display:inline-block;
 @media (max-width: 900px) {
 	.arrows {
 		position:relative;
-		margin: 0 auto;
-		width:96px;
+		margin: 18px auto;
+		width: 96px;
 	}
 	.arrow-left {
 		left: 0;
@@ -842,14 +896,65 @@ display:inline-block;
 	}
 }
 
-@media only screen and (max-width:60em){
+@media only screen and (max-width:800px){
 	.background-about{
-	background-image: url("../images/phoneabout2.png");
-	background-position: top;
-	background-attachment: scroll;
-	background-repeat: repeat;
-	width: 100%;
-	height: 200%; 
+	background-image: url("../images/aboutme/tablet-aboutme.png");
+	height: 100%; 
+    }
+
+#myPic {
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 30%;
+}
+#aboutMeTitlePic{
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    left: 25%;
+}
+#aboutMeTitlePicReflect{
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    left: 25%;
+}
+#aboutMeTitle{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50%;
+}
+
+#aboutMeText{
+    position: absolute;
+    left: 0%;
+    height: 50%;
+    top: 50%;
+    width: 100%;
+
+}
+#aboutMeText p{
+    margin: 4vw 4vw 4vw 4vw;
+    font-size: 3vw;
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+}
+#back-button-about{
+	text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+}
+   
+    #makingThings{
+        width: 80%;
+        margin: 5vw;
+    }
 }
     #more{
         top: 40%;
