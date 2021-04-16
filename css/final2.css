@@ -465,7 +465,7 @@ body, html{
     text-align: center;
     position: absolute;
     top: 16vw;
-    left: 2vw;
+    left: 1vw;
     height: 90vw;
 }
 
@@ -473,14 +473,14 @@ body, html{
     text-align: center;
     position: absolute;
     top: 5vw;
-    left:63vw;
+    left:53vw;
     height: 90vw;
 }
 .animation-button{
     text-align: center;
     position: absolute;
     top: 15vw;
-    left: 47%;
+    left: 42%;
     transform: translate(-50%, -50%);
     height: 90vw;
 }
@@ -489,7 +489,7 @@ body, html{
     text-align: center;
     position: absolute;
     top: 16vw;
-    left: 2vw;
+    left: 1vw;
     height: 90vw;
     opacity: 0;
     transition: .5s ease;
@@ -499,7 +499,7 @@ body, html{
     text-align: center;
     position: absolute;
     top: 5vw;
-    left:63vw;
+    left:53vw;
     height: 90vw;
     opacity: 0;
     transition: .5s ease;
@@ -508,7 +508,7 @@ body, html{
     text-align: center;
     position: absolute;
     top: 15vw;
-    left: 47%;
+    left: 42%;
     transform: translate(-50%, -50%);
     height: 90vw;
     opacity: 0;
