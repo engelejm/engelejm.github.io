@@ -48,8 +48,8 @@ body { font-family: sans-serif; }
   height: 30vh;
 }
 
-@media (max-width: 900px){ 
+@media (min-width: 900px){ 
   .carousel-cell img {
-    height: 50vh;
+    height: 40vh;
   }
 }
