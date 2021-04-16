@@ -15,6 +15,7 @@ body {
 
 #galleryContainer {
     padding-top: 15%;
+    
 }
 
 h1 {
@@ -50,11 +51,12 @@ body { font-family: sans-serif; }
 .carousel-cell {
   margin-right: 20px;
   overflow: hidden;
+    
 }
 
-.carousel-cell img {
+.carousel-cell-image {
   display: block;
-  height: 30vh;
+  height: 30vh;    
 }
 
 @media (min-width: 900px){ 
