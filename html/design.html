@@ -4,10 +4,12 @@
     <!-- CSS -->
 <link rel="stylesheet" href="../css/flickity.css">
     <link rel=stylesheet href="../css/newdesign.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
         <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300&display=swap" rel="stylesheet">
         <!-- JavaScript -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
         <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
     </head>
     <body>
 
@@ -20,58 +22,37 @@
         <h3>Logo and Coin Design</h3>
     </div>
 <!-- Flickity HTML init -->
-<div class="carousel"
-   data-flickity='{"initialIndex": 2 }'>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Foust-logo-Large.png" alt="tulip" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Final-coin-front_Front-01-01.png" alt="grapes" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Final-coin-back-02.png" alt="raspberries" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Challenge-coin-finals-03.png" alt="wolf" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/physical-badge.png" alt="sea" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Foustlogos1-01.png" alt="leaf droplets" />
-  </div>
-</div>
+    <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 2, "initialIndex": 2 }'>
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Foust-logo-Large.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="https://lh3.googleusercontent.com/CR4nnCLfb_nDgG8QAFZTt1uEebPNalWpPhQ0XsWUDAdp7VjlOXGocVr5_UQA8D7IfH31zYzFsKAPd833bl-BGWntxJWLIoJEHm4igsT7q3GQlN4wMdkV6lVNTujfHQj3ddjTGOChZkY=w2400" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Final-coin-back-02.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Challenge-coin-finals-03.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/physical-badge.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Foustlogos1-01.png" />
+    </div>
       <br><br>
     <div class="titleContainer">
         <h1>Carson Lafrance</h1>
         <h3>Book cover artwork</h3>
     </div>
 <!-- Flickity HTML init -->
-<div class="carousel2"
-   data-flickity='{"initialIndex": 2 }'>
-    <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Book-Cover-Revised.png" alt="tulip" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Book-Cover-Carson_THREE-FACES.png" alt="grapes" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Book-Cover-Carson_STAGE-PERSP.png" alt="raspberries" />
-  </div>
-  <div class="carousel-cell">
-    <img class="carousel-cell-image"
-      src="../images/design/design/Book-Cover-Carson_MONO_CHROM.png" alt="wolf" />
-  </div>      
-</div>
+    <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }'>
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Book-Cover-Revised.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Book-Cover-Carson_THREE-FACES.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Book-Cover-Carson_STAGE-PERSP.png" />
+        <img class="carousel-image"
+          data-flickity-lazyload="../images/design/design/Book-Cover-Carson_MONO_CHROM.png" />
+    </div>
+    
     
         <br><br>
     <div class="titleContainer">
@@ -195,7 +176,7 @@
   </div>
 </div>       
 </div>     
-      <script>
+      <!--<script>
         new Flickity( '.carousel' , {
             imagesLoaded: true
         });
@@ -212,7 +193,7 @@
             imagesLoaded: true
         });
           
-        </script>
+        </script>-->
         
     </body>
 </html>
