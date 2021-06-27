@@ -558,11 +558,11 @@ body, html{
 #animatelogoContainer{
     display: block;
     position: absolute;
-  margin-left: -80px;
-  margin-right: auto;
-  width: 50%;
-    left: 50%;
-    bottom: 5px;
+    margin-left: -80px;
+    margin-right: auto;
+    width: 43%;
+    left: 60%;
+    bottom: 13px;
     z-index: 0;
 
 }
