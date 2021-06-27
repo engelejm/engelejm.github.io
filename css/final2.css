@@ -171,6 +171,16 @@ body, html{
 
 /*VIDEO content*/
 
+.back-buttonb{
+	text-align: center;
+    position: fixed;
+    margin-top: 5%;
+    z-index: 99;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    width: 8%;
+}
+
 .background-video{
 	background-image: url("../images/film-background-new.png");
 	width: 100%;
@@ -255,7 +265,7 @@ body, html{
     background: #b19aaa;
     height: 100%;
     width: 80%;
-    top: 100px;
+    top: 70px;
     margin: 0px 10% 0px 10%;
     border-radius: 100px 100px 0px 0px; 
               
@@ -264,7 +274,7 @@ body, html{
 #youTubeContainer{
     position: absolute;
     width: 54%;
-    margin: 40px 23% 40px 23%;
+    margin: 25px 23% 40px 23%;
 }
 
 
@@ -340,6 +350,15 @@ body, html{
     opacity: 0;
     transition: .5s ease;
     }
+    .back-buttonb{
+	text-align: center;
+    position: fixed;
+    margin-top: 10%;
+    z-index: 99;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+}
 }
 
 @media only screen and (max-width:60em){
