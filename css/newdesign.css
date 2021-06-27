@@ -59,6 +59,15 @@ body { font-family: sans-serif; }
   height: 30vh;    
 }
 
+.back-buttona{
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    /* transform: translate(-50%, -50%); */
+    width: 10%;
+}
+
 @media (min-width: 900px){ 
   .carousel-cell img {
     height: 40vh;
