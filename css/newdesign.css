@@ -3,6 +3,7 @@
 
 body {
     background-color: #efe4ec;
+    overflow-x: hidden;
 }
 
 #banner {
@@ -68,8 +69,41 @@ body { font-family: sans-serif; }
     width: 10%;
 }
 
-@media (min-width: 900px){ 
+
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-image {
+  display: block;
+  height: 300px;
+  /* set min-width, allow images to set cell width */
+  min-width: 150px;
+  max-width: 100%;
+  margin-right: 10px;
+  /* vertically center */
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.carousel.is-fullscreen .carousel-image {
+  height: auto;
+  max-height: 100%;
+}
+
+@media (max-width: 900px){ 
   .carousel-cell img {
     height: 40vh;
   }
+    body {
+        background-color: #efe4ec;
+        overflow-x: hidden;
+        width: 108vw;
+    }
 }
