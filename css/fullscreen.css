@@ -54,23 +54,3 @@ html.is-flickity-fullscreen {
   left: 4px;
   top: 4px;
 }
-
-@media (max-width: 500px){ 
-  
-    .flickity-fullscreen-button {
-    display: block;
-    right: 10px;
-    top: 10px;
-    width: 70px !important;
-    height: 70px !important;
-    border-radius: 4px;    
-    }
-    
-    .flickity-fullscreen-button .flickity-button-icon {
-    position: absolute;
-    width: 43px;
-    height: 43px;
-    left: 13px;
-    top: 13px;
-}
-}
