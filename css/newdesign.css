@@ -97,13 +97,15 @@ body { font-family: sans-serif; }
   max-height: 100%;
 }
 
-@media (max-width: 900px){ 
-  .carousel-cell img {
+@media (min-width: 500px){ 
+  .carousel-image {
     height: 40vh;
   }
-    body {
-        background-color: #efe4ec;
-        overflow-x: hidden;
-        width: 108vw;
-    }
+    
+body {
+    background-color: #efe4ec;
+    overflow-x: hidden;
+    width: 108vw;
+}
+
 }
