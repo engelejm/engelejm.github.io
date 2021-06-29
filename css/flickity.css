@@ -135,7 +135,3 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-@media (max-width: 900px){
-  .carousel-cell img {
-    height: 50%;
-  }
