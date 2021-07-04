@@ -193,6 +193,10 @@ body, html{
 #myImg:hover {opacity: 0.7;}
 
 /*Important:*/
+#internship {
+    position:relative;
+}
+
 .link-spanner{
   position:absolute; 
   width:100%;
