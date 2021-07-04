@@ -900,15 +900,6 @@ display:inline-block;
 
 /* Achievements */
 
-@font-face {
-    font-family: 'Calvous Spurs Stamp DEMO';
-    src: url('CalvousSpursStampDEMO.woff2') format('woff2'),
-        url('CalvousSpursStampDEMO.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 .background-achievements {
     background-color: #b09aac;
     height: 100vh;
