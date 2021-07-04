@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Achievements */
+body, html{
+	height: 100%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.background-achievements {
+    background-color: #b09aac;
+    height: 100vh;
+}
+
+#long-hair {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    left: 25%;
+    z-index: -10;
+}
+
+.achievement-img {
+    align-content: center;
+    z-index: 96;
+}
+
+.achievement-banner h3{
+    text-align: center;
+    font-size: 5em;
+    color: #ffffff;
+    font-family: 'Calvous Spurs Stamp DEMO';
+    margin-block-start: 0px;
+    padding-top: 20px;
+    margin-block-end: 20px;
+}
+
+.ach-icon {
+    float: left;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+
+.achievement-list-column {
+    width: 50%;
+    float: left;
+}
+
+.achievement-list-column p{
+    padding: 10px;
+    font-family: 'Calvous Spurs Stamp DEMO'; 
+    height: 80px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: bottom;
+    z-index: 99;
+}
+
+.achievement-list-column .todo {
+    color: #756972;
+}
+
+#back-button-achievements{
+	text-align: center;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 8%;
+}
+
+@media (max-width: 1000px) {
+    .achievement-list-column {
+        width: 100%;
+    }
+
+    .achievement-banner h3 {
+        text-align: center;
+        font-size: 2em;
+        color: #ffffff;
+        font-family: 'Calvous Spurs Stamp DEMO';
+        margin-block-start: 0px;
+        padding-top: 20px;
+        margin-block-end: 20px;
+    }
+    
+    #back-button-achievements {
+        text-align: center;
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        width: 8%;
+    }      
+}
+
+@media (max-width: 400px) {
+    .achievement-list-column p {
+        padding: 10px;
+        font-family: 'Calvous Spurs Stamp DEMO'; 
+        height: 80px;
+        margin-right: 10px;
+        margin-left: 10px;
+        align-items: bottom;
+        z-index: 99;  
+        font-size: 0.7em;
+    }
+    .achievement-banner h3 {
+        text-align: center;
+        font-size: 1.5em;
+        color: #ffffff;
+        font-family: 'Calvous Spurs Stamp DEMO';
+        margin-block-start: 0px;
+        padding-top: 20px;
+        margin-block-end: 20px;
+    }
+    
+    #long-hair {
+    width: 100%;
+    left: 0;
+}
+    
+}
+
+@media (max-width: 900px) {
+	.arrows {
+		position:relative;
+		margin: 18px auto;
+		width: 96px;
+	}
+	.arrow-left {
+		left: 0;
+		top: -20px;
+	}
+
+	.arrow-right {
+		right: 0;
+		top: -20px;
+	}
+    
+    .achievement-list-column p {
+        padding: 10px;
+        font-family: 'Calvous Spurs Stamp DEMO'; 
+        height: 80px;
+        margin-right: 50px;
+        margin-left: 50px;
+        align-items: bottom;
+        z-index: 99;  
+        font-size: 0.7em;
+    }
+}
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
