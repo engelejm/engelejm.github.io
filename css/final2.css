@@ -881,8 +881,8 @@ display:inline-block;
 	position: absolute;
 	background: #777;
 	padding: 15px;
-	left: -25px;
-	top: -130px;
+	left: 30%;
+	top: 13px;
 	z-index: 99;
 	cursor: pointer;
 }
@@ -892,8 +892,8 @@ display:inline-block;
 	position: absolute;
 	background: #777;
 	padding: 15px;
-	right: -25px;
-	top: -130px;
+	right: 30%;
+	top: 13px;
 	z-index:100;
 	cursor: pointer;
 }
