@@ -1024,6 +1024,11 @@ display:inline-block;
         margin-block-end: 20px;
     }
     
+    #long-hair {
+    width: 100%;
+    left: 0;
+}
+    
 }
 
 @media (max-width: 900px) {
