@@ -159,6 +159,30 @@ body, html{
     }
 }
 
+#graduated:hover svg{
+    fill: white;
+}
+#graduated:hover p{
+    color: white;
+}
+#outstanding-senior:hover svg{
+    fill: white;
+}
+#outstanding-senior:hover p{
+    color: white;
+}
+#challenge-coin:hover svg{
+    fill: white;
+}
+#challenge-coin:hover p{
+    color: white;
+}
+#internship:hover svg{
+    fill: white;
+}
+#internship:hover p{
+    color: white;
+}
 
 #myImg {
   border-radius: 5px;
@@ -167,6 +191,7 @@ body, html{
 }
 
 #myImg:hover {opacity: 0.7;}
+
 
 /* The Modal (background) */
 .modal {

@@ -108,12 +108,24 @@
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("graduated");
+var grd = document.getElementById("graduated");
+var snr = document.getElementById("outstanding-senior");
+var chl = document.getElementById("challenge-coin");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
+grd.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = "/images/about-me.jpg";
+  modalImg.src = "/images/graduated.png";
+  captionText.innerHTML = this.alt;
+}
+snr.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = "/images/outstanding-senior.png";
+  captionText.innerHTML = this.alt;
+}
+chl.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = "/images/marines.jpg";
   captionText.innerHTML = this.alt;
 }
 
