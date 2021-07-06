@@ -794,7 +794,7 @@ body, html{
 
 #social-links{
     position: absolute;
-    width: 40%;
+    width: 50%;
     bottom: 20px;
     right: 20px;
 }
@@ -846,12 +846,16 @@ body, html{
         }
     }
 
-@media only screen and (max-width:370px){
+@media only screen and (max-width:390px){
         #social-links{
             width: 80%;
             bottom: 20px;
             right: 20px;
         }
+    
+    #makingThings{
+    bottom: 60px;
+    }
     }
 /*Design Page Modal*/
 
