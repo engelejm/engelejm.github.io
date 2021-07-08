@@ -997,7 +997,12 @@ display:inline-block;
 	background-image: url("../images/aboutme/tablet-aboutme.png");
 	height: 100%; 
     }
-
+    
+.back-buttona {
+    left: 13%;
+    width: 66px;
+}    
+    
 .prev, .next {
     top: 80px;
 }    
@@ -1055,7 +1060,7 @@ display:inline-block;
 #back-button-about{
 	text-align: center;
     position: absolute;
-    top: 5%;
+    top: 57px;
     left: 10%;
     transform: translate(-50%, -50%);
     width: 15%;
@@ -1073,4 +1078,20 @@ display:inline-block;
     .modal-content {
     width: 100%;
   }
+}
+
+@media screen and (max-height:590px) {
+    #youTubeContainer {
+    position: absolute;
+    width: 100%;
+    margin: 45px 0% 40px 0%;
+}
+    .arrow-left {
+    left: 90px;
+    top: 15px;
+}
+    .arrow-right {
+    right: 90px;
+    top: 15px;
+}
 }
