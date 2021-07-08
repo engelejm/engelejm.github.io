@@ -970,24 +970,24 @@ display:inline-block;
 
 .arrow-left {
 	color: #fff;
-	position: absolute;
-	background: #777;
-	padding: 15px;
-	left: -25px;
-	top: -130px;
-	z-index: 99;
-	cursor: pointer;
+    position: absolute;
+    background: #777;
+    padding: 15px;
+    left: -37px;
+    top: -130px;
+    z-index: 99;
+    cursor: pointer;
 }
 
 .arrow-right {
-	color: #fff;
-	position: absolute;
-	background: #777;
-	padding: 15px;
-	right: -25px;
-	top: -130px;
-	z-index:100;
-	cursor: pointer;
+    color: #fff;
+    position: absolute;
+    background: #777;
+    padding: 15px;
+    right: -42px;
+    top: -130px;
+    z-index: 100;
+    cursor: pointer;
 }
 
 
@@ -998,6 +998,28 @@ display:inline-block;
 	height: 100%; 
     }
 
+.arrow-left {
+	color: #fff;
+    position: absolute;
+    background: #777;
+    padding: 15px;
+    left: 90px;
+    top: 140px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.arrow-right {
+    color: #fff;
+    position: absolute;
+    background: #777;
+    padding: 15px;
+    right: 90px;
+    top: 140px;
+    z-index: 100;
+    cursor: pointer;
+}    
+    
 #myPic {
     position: absolute;
     width: 40%;
