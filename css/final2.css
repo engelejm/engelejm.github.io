@@ -999,25 +999,13 @@ display:inline-block;
     }
 
 .arrow-left {
-	color: #fff;
-    position: absolute;
-    background: #777;
-    padding: 15px;
     left: 90px;
-    top: 140px;
-    z-index: 99;
-    cursor: pointer;
+    top: 35px;
 }
 
 .arrow-right {
-    color: #fff;
-    position: absolute;
-    background: #777;
-    padding: 15px;
     right: 90px;
-    top: 140px;
-    z-index: 100;
-    cursor: pointer;
+    top: 35px;
 }    
     
 #myPic {
