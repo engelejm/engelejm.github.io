@@ -998,6 +998,10 @@ display:inline-block;
 	height: 100%; 
     }
 
+.prev, .next {
+    top: 80px;
+}    
+    
 .arrow-left {
     left: 90px;
     top: 35px;
