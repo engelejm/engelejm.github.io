@@ -8,7 +8,7 @@ body {
 }
 
 #banner {
-    position: absolute;
+    position: relative;
 
     width: 100%;
     z-index: -1;
@@ -17,7 +17,8 @@ body {
 
 #galleryContainer {
     padding-top: 15%;
-    
+    position: relative;
+    height: 100%;
 }
 
 h1 {
@@ -53,12 +54,12 @@ body { font-family: sans-serif; }
 .carousel-cell {
   margin-right: 20px;
   overflow: hidden;
-    
+  height: 300px;
 }
 
 .carousel-cell-image {
   display: block;
-  height: 30vh;    
+  height: 200px;    
 }
 
 .back-buttona{
@@ -90,13 +91,20 @@ body { font-family: sans-serif; }
   margin-right: 10px;
   /* vertically center */
   /* top: 50%;
-  transform: translateY(-50%) */ */
+  transform: translateY(-50%) */ 
 }
 
-.carousel.is-fullscreen .carousel-image {
+.carousel.is-fullscreen .carousel-cell {
+  top: 15%;
   height: auto;
-  max-height: 100%;
+  max-width: 100vw;
+  max-height: 80vh;
 }
+
+.carousel.is-fullscreen .flickity-prev-next-button{
+  top: 90%;
+}
+
 
 @media only screen and (max-width:800px){
 
