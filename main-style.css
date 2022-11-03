@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+    height: 100%;	
+}
+
+body {
+	overflow-x: hidden;
+}
+
+html {
+	overflow-x: visible!important;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "High Summit";
+    src: url('fonts/High Summit.ttf') format("truetype");
+}
+
+/*GENERAL RULES*/
+.primary-font{
+font-family: lato, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.secondary-font{
+font-family: arno-pro, serif;
+font-weight: 400;
+font-style: normal;	
+}
+
+.logo-font{
+font-family: desire-pro, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.slogan-font{
+font-family: arno-pro-caption, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.cursive-font{
+font-family: "High Summit";
+}
+
+.z-to-front{
+	z-index: 900;
+}
+
+.z-up{
+	z-index: 400;
+}
+
+.quarter-vh{
+	height: 25vh;
+}
+
+.no-bullets{
+	list-style-type:none!important;
+}
+
+.no-decoration{
+	text-decoration: none!important;
+}
+
+.image-contain{
+	object-fit: contain;
+}
+
+.image-cover{
+	object-fit: cover;
+}
+
+.copy-nav-link{
+	color: rgba(255,255,255,.55);
+}
+
+.plain-green-bgd{
+	background-color: #111611;
+}
+
+.light-green-bgd{
+	background-color: #737C70;
+}
+
+.med-green-bgd{
+	background-color: #4c5549;
+}
+
+.green-box{
+	background-color: #556052;
+	height: 15px;
+}
+
+.green-line{
+	background-color: #556052;
+	height: 3px;
+}
+
+.green-border{
+	border: solid thin #556052;
+}
+
+.text-green{
+	color: #3f5838;
+}
+
+.green-link{
+	color: #556052;
+}
+
+.green-link:hover{
+	color: #98c998;
+}
+
+.custom-display-f{
+	font-size: calc(1.625rem + 2vw);
+}
+
+	
+.custom-top-50{
+		top: 35%!important;
+	}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.slick-track{
+	display: flex !important;
+}
+
+.slick-slide{
+	height: inherit !important;
+}
+
+/*For all waypoint animations needing 0 opacity start*/
+.waypoint-vis{
+opacity: 0;
+}
+
+/*NAVIGATION*/
+.nav-color.scrolled {
+    background-color: black !important;
+    transition: background-color 200ms linear;
+}
+
+.cont-button{
+	border: solid medium #556052;
+	background-color:#556052!important;
+	box-shadow: 2px 2px 2px black; 
+	color:white;
+}
+
+.cont-button:hover{
+	background-color:#444C42!important;
+}
+
+.contribute-btn{
+	height: 48px;
+}
+
+/*LANDING PAGE*/
+.landscape-bgd{
+	background-color: #0C121C;
+	background-image: url("images/sunsent-landscape.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.dan-text{
+	font-size: 145%;
+	text-shadow: 2px 2px 4px black;
+}
+
+/*REST OF PAGE*/
+.supp-button{
+	border: solid medium #556052;
+	background-color:#556052!important;
+	box-shadow: 2px 2px 2px black;
+}
+
+.supp-button:hover{
+	background-color:#444C42!important;
+}
+
+.supp-btn{
+	height: 48px;
+}
+
+.button-active{
+	border-bottom: solid thin white;
+	color: white!important;
+}
+
+.contribute-active{
+	background-color:#444C42!important;
+}
+
+/*Media Queries*/
+
+@media (max-width: 576px){
+	.custom-display-f{
+		font-size: calc(1.625rem + 1.3vw)!important;
+	}
+}
+
+@media (min-width: 576px){
+	.custom-display-f{
+		font-size: calc(1.625rem + 3vw)!important;
+}
+	.custom-top-50{
+		top: 50%!important;
+	}
+}
+
+@media (min-width: 768px){
+	.custom-display-f{
+		font-size: calc(1.625rem + 3.7vw)!important;
+}
+}
+
+@media (min-width: 992px){
+	
+}
+
+@media (min-width: 1200px){
+	
+}
